@@ -1,6 +1,3 @@
-# assemble to .obj: /masm32/bin/ml /c /Zd /coff filename.asm
-# link to .exe:     /masm32/bin/Link /SUBSYSTEM:CONSOLE filename.obj
-
 # imports
 import os
 import sys
