@@ -15,7 +15,7 @@ def main():
     except:
         # if not, throw an error
         print("Enter the file you want to assemble.")
-        quit()
+        return
 
     # call parse() to get the file name (fn) and the file extension (ext)
     fn, ext = parse(file)
@@ -23,7 +23,7 @@ def main():
     # it needs to be an assembly file, otherwise it won't work
     if ext != 'asm':
         print("The input file must be a '.asm' file.")
-        quit()
+        return
 
     # define the commands
     cmd1 = f'/masm32/bin/ml /c /Zd /coff {fn}.asm'
