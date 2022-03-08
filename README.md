@@ -12,8 +12,10 @@ Click on `Edit` > `New` and add `C:/path/to/assemble/executable`, but don't add 
 After that, start a new instance of your terminal and type `assemble`. It should work just fine!
 
 ## Dependencies
-x86_32 Windows
+### System
+x86_32 Windows\
 x64 Windows
 
+### Programs
 masm32
 - If you don't have masm32 installed, get it at [masm32.masmcode.com/masm32](http://masm32.masmcode.com/masm32/) or download v11 directly with this link: [masm32v11r.zip](http://masm32.masmcode.com/masm32/masm32v11r.zip)
